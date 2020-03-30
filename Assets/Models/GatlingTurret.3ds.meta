@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 87b49cbed25840f4b84f7d593f2f8063
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cone
+    100004: Box
+    100006: Base
+    100008: Bottom.C_-Y
+    100010: TOP.C_+Y
+    100012: Cylinder
+    100014: Guard
+    100016: LEft
+    100018: Right
+    100020: Barrel
+    400000: //RootNode
+    400002: Cone
+    400004: Box
+    400006: Base
+    400008: Bottom.C_-Y
+    400010: TOP.C_+Y
+    400012: Cylinder
+    400014: Guard
+    400016: LEft
+    400018: Right
+    400020: Barrel
+    2300000: Cone
+    2300002: Box
+    2300004: Base
+    2300006: Bottom.C_-Y
+    2300008: TOP.C_+Y
+    2300010: Cylinder
+    2300012: Guard
+    2300014: LEft
+    2300016: Right
+    2300018: Barrel
+    3300000: Cone
+    3300002: Box
+    3300004: Base
+    3300006: Bottom.C_-Y
+    3300008: TOP.C_+Y
+    3300010: Cylinder
+    3300012: Guard
+    3300014: LEft
+    3300016: Right
+    3300018: Barrel
+    4300000: Barrel
+    4300002: Right
+    4300004: LEft
+    4300006: Guard
+    4300008: Cylinder
+    4300010: TOP.C_+Y
+    4300012: Bottom.C_-Y
+    4300014: Base
+    4300016: Box
+    4300018: Cone
+    6400000: Base
+    6400002: Barrel
+    6400004: Bottom.C_-Y
+    6400006: Box
+    6400008: Cone
+    6400010: Cylinder
+    6400012: Guard
+    6400014: LEft
+    6400016: Right
+    6400018: TOP.C_+Y
+    11100000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hammered Plate
+    second: {fileID: 2100000, guid: 0eb5e07f7499cf24b93506f48881c92a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silver RoughBrushed
+    second: {fileID: 2100000, guid: aea3562d3336c004ea621733adcd77f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Solid Color
+    second: {fileID: 2100000, guid: 93a5116cc9939a247b6acfdb6579928f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

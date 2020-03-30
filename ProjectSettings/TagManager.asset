@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Deployable
+  - EnemyDeployable
+  - EnemyTurret
+  - wormProjectile
+  - Repair Target
+  - nulltarget
+  - enemyArtillery
+  - AntiArtillery
+  - Artillery
+  - Artillery Strike Marker
+  - Artillery Strike Point
+  - Player Arrow
+  - Shot Beam Spawnpoint
+  - Current Ammo Image
+  - Current Ammo Text
+  - LB Ammo Gauge
+  - LB Ammo Bar
+  - SB Ammo Gauge
+  - SB Ammo Bar
+  - ML Ammo Gauge
+  - ML Ammo Bar
+  - Shot Beam
+  - Lacelerator Beam
+  - Missile Launcher
+  - Missile
+  - enemyMissile
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Radar
+  - Terrain
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
