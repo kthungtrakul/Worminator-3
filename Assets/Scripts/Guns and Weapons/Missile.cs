@@ -72,7 +72,7 @@ public class Missile : MonoBehaviour
         if (Vector3.Distance(Target.transform.position, transform.position) < 100)
         {
             Damping = 5f;
-            missileBody.drag = 3f;
+            missileBody.linearDamping = 3f;
         }
     }
 
