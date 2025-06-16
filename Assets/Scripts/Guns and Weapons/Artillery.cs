@@ -38,7 +38,7 @@ public class Artillery : Bullet
         if(Vector3.Distance(Target.transform.position, transform.position) < 200)
         {
             Damp = 6f;
-            Body.drag = 4;
+            Body.linearDamping = 4;
             CF.relativeForce = new Vector3(0, 0, 100);
             transform.rotation = Quaternion.Slerp(transform.rotation, rotate, Time.deltaTime * Damp);
         }

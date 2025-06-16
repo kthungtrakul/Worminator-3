@@ -38,7 +38,7 @@ public class AAF : Missile
         {
             rocketMotor.relativeForce = new Vector3(0, 0, 500);
             SensorRange.radius = 10f;
-            missileBody.drag = 2f;
+            missileBody.linearDamping = 2f;
         }
     }
 
