@@ -2544,8 +2544,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 218948746}
+  _minimapCamera: {fileID: 516455226}
   _bearingMarker: {fileID: 1624637223}
   _minimapFrame: {fileID: 960922238}
+  _mapObjects:
+  - {fileID: 1953132360}
+  - {fileID: 17184797}
+  - {fileID: 1988511865}
+  - {fileID: 804136769}
+  _objectSprite: {fileID: 21300000, guid: 5b1a64ea234fb2343b8d0686c51280de, type: 3}
 --- !u!1 &623332044
 GameObject:
   m_ObjectHideFlags: 0
@@ -2932,6 +2939,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1777128080}
   m_SourcePrefab: {fileID: 100100000, guid: 337595883048ef248aa1127ea4f852ec, type: 3}
+--- !u!4 &804136769 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400020, guid: 337595883048ef248aa1127ea4f852ec,
+    type: 3}
+  m_PrefabInstance: {fileID: 804136768}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &877391775
 GameObject:
   m_ObjectHideFlags: 0
@@ -5332,6 +5345,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad1e000bb5d70ce4bb921a10065d1f42, type: 3}
+--- !u!4 &1953132360 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400002, guid: ad1e000bb5d70ce4bb921a10065d1f42,
+    type: 3}
+  m_PrefabInstance: {fileID: 1953132359}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1968767239
 GameObject:
   m_ObjectHideFlags: 0

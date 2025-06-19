@@ -10,14 +10,25 @@ namespace Core.UI
 
         // later define player position as part of the injected view model
         [SerializeField] private Transform _player;
+        [SerializeField] private Camera _minimapCamera;
         [SerializeField] private RectTransform _bearingMarker;
 
         [Header("Minimap internals")]
         [SerializeField] private RectTransform _minimapFrame;
 
+        // placeholder object array and sprite so we get logic working first.
+        [Header("Placeholder array of objects of interest")]
+        [SerializeField] private Transform[] _mapObjects;
+        [SerializeField] private GameObject _markerPrefab;
+
         private void Awake()
         {
             _minimapViewModel = new MinimapViewModel();
+        }
+
+        private void Start()
+        {
+            _minimapViewModel.SetMinimapSize(_minimapCamera.orthographicSize);
         }
 
         private void LateUpdate()
